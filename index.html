@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Seleksi Asisten Lab - Kelompok 3</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+.nav-link.active {
+  background-color: #bbdefb !important; /* biru muda */
+  color: #0d47a1 !important;            /* biru tua */
+  border-radius: 5px;
+}
+    section {
+      display: none;
+    }
+    section.active-section {
+      display: block;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="#" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename"><img src="assets/img/hero-img.png"> Kelompok 3</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#" class="nav-link active" onclick="showSection('team', this)">Anggota</a></li>
+          <li><a href="#" class="nav-link" onclick="showSection('inputSection', this)">Input Nilai</a></li>
+          <li><a href="#" class="nav-link" onclick="showSection('hasilSection', this)">Ranking</a></li>
+          <li><a href="#" class="nav-link" onclick="showSection('bobotSection', this)">Pembobotan Nilai</a></li>
+          <li><a href="#" class="nav-link" onclick="showSection('gapSection', this)">Pembobotan GAP</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background active-section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>SELEKSI ASISTEN LABORATORIUM</h1>
+            <p>Dengan Penerapan Profil Matching</p>
+
+          </div>
+          <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img-1.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Dalam kegiatan rekrutmen calon Asisten Laboratorium tahun ini dihandle oleh 4 orang tim rekrutmen.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/dilah.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Siti Nurfadilah</h4>
+                <p>NPM: 23670038</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/ifta.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ifta Dila Salsabila</h4>
+                <p>NPM: 23670047</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/ratna.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Laily Ratna Agustina</h4>
+                <p>NPM: 23670051</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/dian.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dian Puspitasari</h4>
+                <p>NPM: 23670171</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Input Section -->
+    <section id="inputSection">
+      <div class="container">
+        <h2 class="text-success text-center">Input Nilai</h2>
+        <div class="text-center mb-3">
+          <button class="btn btn-success" onclick="inputNamaPeserta()">Tambah Peserta</button>
+          <button class="btn btn-primary" onclick="prosesSemua()">Hitung Semua</button>
+        </div>
+        <div id="tabelInput">
+          <h5>Aspek Administrasi</h5>
+          <table class="table table-bordered" id="adminTable"><thead><tr><th>Nama</th><th>IPK</th><th>Algo</th><th>Jarkom</th><th>Sertifikat</th><th>Aksi</th></tr></thead><tbody></tbody></table>
+          <h5>Aspek Kompetensi</h5>
+          <table class="table table-bordered" id="kompTable"><thead><tr><th>Nama</th><th>Pemrograman</th><th>Jaringan</th><th>Aksi</th></tr></thead><tbody></tbody></table>
+          <h5>Aspek Microteaching</h5>
+          <table class="table table-bordered" id="microTable"><thead><tr><th>Nama</th><th>Suara</th><th>Sikap</th><th>Interaksi</th><th>Penguasaan</th><th>Penyampaian</th><th>Aksi</th></tr></thead><tbody></tbody></table>
+          <h5>Aspek Wawancara</h5>
+          <table class="table table-bordered" id="wawanTable"><thead><tr><th>Nama</th><th>Komitmen</th><th>Konsistensi</th><th>Karakter</th><th>Aksi</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hasil Section -->
+    <section id="hasilSection">
+      <div class="container">
+        <h2 class="text-success">Ranking Hasil</h2>
+        <div id="hasil"></div>
+        <div class="text-center">
+          <button class="btn btn-outline-success" onclick="showSection('bobotSection')">Lihat Detail Pembobotan</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pembobotan Nilai Section -->
+    <section id="bobotSection">
+      <div class="container">
+        <h2 class="text-success">Pembobotan Nilai</h2>
+        <div id="tabelBobot">
+          <h5>Aspek Administrasi</h5>
+          <table class="table table-bordered" id="bobotAdminTable"><thead><tr><th>Nama</th><th>IPK</th><th>Algo</th><th>Jarkom</th><th>Sertifikat</th></tr></thead><tbody></tbody></table>
+          <h5>Aspek Kompetensi</h5>
+          <table class="table table-bordered" id="bobotKompTable"><thead><tr><th>Nama</th><th>Pemrograman</th><th>Jaringan</th></tr></thead><tbody></tbody></table>
+          <h5>Aspek Microteaching</h5>
+          <table class="table table-bordered" id="bobotMicroTable"><thead><tr><th>Nama</th><th>Suara</th><th>Sikap</th><th>Interaksi</th><th>Penguasaan</th><th>Penyampaian</th></tr></thead><tbody></tbody></table>
+          <h5>Aspek Wawancara</h5>
+          <table class="table table-bordered" id="bobotWawanTable"><thead><tr><th>Nama</th><th>Komitmen</th><th>Konsistensi</th><th>Karakter</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAP Section -->
+    <section id="gapSection">
+      <div class="container">
+        <h2 class="text-success">Pembobotan GAP</h2>
+        <div id="gapTableContainer"></div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Rekrutmen Asisten Laboratorium tahun ini oleh tim Kelompok 3.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container copyright text-center">
+      <p>&copy; Copyright <strong>Kelompok 3</strong>. All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    function showSection(id, element = null) {
+      document.querySelectorAll('main section').forEach(sec => {
+        sec.classList.remove('active-section');
+      });
+      const active = document.getElementById(id);
+      if (active) active.classList.add('active-section');
+
+      document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+      if (element) element.classList.add('active');
+
+      if (id === 'gapSection' && typeof tampilkanGAP === 'function') tampilkanGAP();
+      if (id === 'bobotSection' && typeof tampilkanPembobotanNilai === 'function') tampilkanPembobotanNilai();
+    }
+    window.addEventListener("DOMContentLoaded", () => {
+      if (typeof muatDataAwal === 'function') muatDataAwal();
+    });
+  </script>
+</body>
+
+</html>
